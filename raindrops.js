@@ -36,8 +36,8 @@ Raindrops.prototype.convert = function (number) {
   if (number === 1) {
     return '1';
   }
-  if (number % 3 === 0) {
-    return "Pling";
+  if (number % 3 === 0 && number % 7 ) {
+    return += "Pling";
   }
   if (number % 5 === 0) {
     return "Plang";
@@ -50,3 +50,14 @@ Raindrops.prototype.convert = function (number) {
 };
 
 module.exports = Raindrops;
+
+// var results =''
+// += plong...
+
+
+// function raindrops() {
+//   this.convert = function (num) {
+//     var output = '';
+//     output += num % 3
+//   }
+// }
